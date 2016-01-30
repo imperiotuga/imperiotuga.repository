@@ -1,0 +1,19 @@
+<settings>
+	<category label="[COLOR red][B]Minhas Listas[/B][/COLOR]">
+		<setting label="[B]Minha M3U Online[/B]" type="text"  id="pessoal_m3u" default="" />
+		<setting label="[B]Minha M3U Local[/B]" type="file"  id="pessoal_local_m3u" default="" />
+		<setting type="sep" />
+		<setting label="[B]Minha XML Online[/B]" type="text"  id="online_xml" default="" />
+		<setting label="[B]Minha XML Local[/B]" type="file"  id="local_xml" default="" />
+	</category>
+	<category label="[COLOR red][B]Listas IPTV[/B][/COLOR]">
+		<setting label="[B]NOTICIAS[/B]" type="text"  id="noticias_m3u" default="http://pastebin.com/raw/h9UqxKLD" />
+		<setting label="[B]PORTUGAL[/B]" type="text"  id="pt_m3u" default="http://pastebin.com/raw/FQc716WB" />
+		<setting label="[B]DESPORTO[/B]" type="text"  id="desporto_m3u" default="http://pastebin.com/raw/vBeEFzE3" />		
+		<setting label="[B]EU MIX[/B]" type="text"  id="EUMix_m3u" default="http://kodilive.eu/tv/" />	
+		<setting label="[B]MUSICA[/B]" type="text"  id="musica_m3u" default="" />	
+	</category>
+	<category label="[COLOR red][B]Listas Externas[/B][/COLOR]">
+		<setting label="[B]Changelog[/B]" type="text"  id="log_m3u" default=""  hide="true"/>
+		</category>
+</settings>

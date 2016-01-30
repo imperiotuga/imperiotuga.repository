@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="imperiotuga.repository" name="Imperio Tuga" version="1.0" provider-name="imperiotuga">
+	<extension point="xbmc.addon.repository" name="imperiotuga Add-on Repository">
+		<info compressed="false">http://raw.github.com/imperiotuga/imperiotuga.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/imperiotuga/imperiotuga.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/imperiotuga/imperiotuga.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Imperio Tuga Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.imperiotuga" name="Imperio Tuga" version="1.0" provider-name="Imperio Tuga">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			library="player.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Imperio Tuga</summary>
+    <description lang="en">Addon Imperio Tuga TV</description>
+    <disclaimer lang="en">Pega, Ah, Mama....</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>MIT</license>
+    <forum></forum>
+    <source></source>
+  </extension>
+</addon>
+</addons>
