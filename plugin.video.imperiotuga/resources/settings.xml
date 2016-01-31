@@ -3,7 +3,7 @@
 		<setting label="[B]Minha M3U Online[/B]" type="text"  id="pessoal_m3u" default="" />
 		<setting label="[B]Minha M3U Local[/B]" type="file"  id="pessoal_local_m3u" default="" />
 		<setting type="sep" />
-		<setting label="[B]Minha XML Online[/B]" type="text"  id="online_xml" default="" />
+		<setting label="[B]Minha XML Online[/B]" type="text"  id="online_xml" default="https://github.com/adrianoafonso/myIPTVchannels/blob/master/agenda_arenavision.xml" />
 		<setting label="[B]Minha XML Local[/B]" type="file"  id="local_xml" default="" />
 	</category>
 	<category label="[COLOR red][B]Listas IPTV[/B][/COLOR]">
