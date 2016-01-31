@@ -9,7 +9,8 @@
 	<category label="[COLOR red][B]Listas IPTV[/B][/COLOR]">
 		<setting label="[B]NOTICIAS[/B]" type="text"  id="noticias_m3u" default="http://pastebin.com/raw/h9UqxKLD" />
 		<setting label="[B]PORTUGAL[/B]" type="text"  id="pt_m3u" default="http://pastebin.com/raw/FQc716WB" />
-		<setting label="[B]DESPORTO[/B]" type="text"  id="desporto_m3u" default="http://pastebin.com/raw/vBeEFzE3" />		
+		<setting label="[B]DESPORTO[/B]" type="text"  id="desporto_m3u" default="http://pastebin.com/raw/vBeEFzE3" />	
+		<setting label="[B]EUMIX[/B]" type="text"  id="infantil_m3u" default="http://kodilive.eu/tv/" />			
 		<setting label="[B]MUSICA[/B]" type="text"  id="musica_m3u" default="" />	
 	</category>
 	<category label="[COLOR red][B]Listas Externas[/B][/COLOR]">
