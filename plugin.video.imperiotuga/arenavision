@@ -2,7 +2,7 @@
 <item>
 <title>[COLOR blue][B][I]ARENAVISION[/I][/B][/COLOR] [COLOR red] ( P2P SPORT)[/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.p2psport/?mode=av</jsonrpc>
+<jsonrpc>plugin://plugin.video.p2p-streams/?mode=401&amp;name=[B][COLOR red]Agenda/Schedule[/COLOR]&amp;parser=arenavision&amp;parserfunction=arenavision_schedule&amp;url=http://www.arenavision.in/agenda</jsonrpc></jsonrpc>
 <thumbnail>http://s20.postimg.org/dh6rs3pz1/LIVESPORTS_REAM.jpg</thumbnail>
 </item>
 </xml>
