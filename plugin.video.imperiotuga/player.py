@@ -112,7 +112,7 @@ def main():
 	if len(log_m3u) > 0:	
 		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 111, icon, fanart)
 	if len(online_m3u) > 0:	
-		add_dir('[COLOR blue][B] MUSICA [/B][/COLOR]', u_tube, 2, i_music, f_music)
+		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 2, i_music, f_music)
 	if len(filmes_m3u) > 0:	
 		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 3, i_movie, f_movie)
 	if len(infantil_m3u) > 0:	
@@ -138,7 +138,7 @@ def main():
 	if len(pessoal_local_m3u) > 0:	
 		add_dir('[COLOR gray][B] MINHA M3U LOCAL [/B][/COLOR]', u_tube, 14, icon, fanart)
 	if len(online_xml) > 0:	
-		add_dir('[COLOR gray][B] MINHA XML ONLINE [/B][/COLOR]', u_tube, 15, icon, fanart)
+		add_dir('[COLOR green][B] LISTA MAGELLAN [/B][/COLOR]', u_tube, 15, icon, fanart)
 	if len(local_xml) > 0:	
 		add_dir('[COLOR gray][B] MINHA XML LOCAL [/B][/COLOR]', u_tube, 16, icon, fanart)	
 	if (len(online_m3u) < 1 and len(filmes_m3u) < 1 and len(infantil_m3u) < 1 and len(nasa_m3u) < 1 and len(noticias_m3u) < 1 and len(pt_m3u) < 1 and len(ru_m3u) < 1 and len(desporto_m3u) < 1 and len(series_m3u) < 1 and len(uk_m3u) < 1 and len(praias_m3u) < 1 and len(pessoal_m3u) < 1 and len(pessoal_local_m3u) < 1 and len(online_xml) < 1 and len(local_xml) < 1 and len(log_m3u) < 1 ):
