@@ -44,7 +44,7 @@ f_ru = xbmc.translatePath(os.path.join(artfolder, 'radio.jpg'))
 f_tvshow = xbmc.translatePath(os.path.join(artfolder, 'tvshow.jpg'))
 f_uk = xbmc.translatePath(os.path.join(artfolder, 'uk.jpg'))
 ##############################3
-i_music = xbmc.translatePath(os.path.join(artfolder, 'music.png'))
+i_music = xbmc.translatePath(os.path.join(artfolder, 'movie.png'))
 i_sport = xbmc.translatePath(os.path.join(artfolder, 'sport.png'))
 i_beach = xbmc.translatePath(os.path.join(artfolder, 'beach.png'))
 i_child = xbmc.translatePath(os.path.join(artfolder, 'EU.png'))
