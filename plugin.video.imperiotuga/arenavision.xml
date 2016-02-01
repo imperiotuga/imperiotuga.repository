@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
-<title>[COLOR=orange][B]AGENDA DESPORTIVA ARENAVISION[/B][/COLOR] [COLOR=red]*Necessario PLEXUS[/COLOR]</title>
-<link>ignore</link>
-<jsonrpc>plugin://plugin.video.p2psport/?mode=arenavision.in</jsonrpc>
-<thumbnail>http://i.imgur.com/OXrlo31.png</thumbnail>
+<item>
+<title>ArenaVision 1 Acestream</title>
+<sportsdevil>http://www.arenavision.in/arenavision1</sportsdevil>
+<referer>http://www.arenavision.in/</referer>
 </item>
 </xml>
