@@ -44,7 +44,7 @@ f_ru = xbmc.translatePath(os.path.join(artfolder, 'radio.jpg'))
 f_tvshow = xbmc.translatePath(os.path.join(artfolder, 'tvshow.jpg'))
 f_uk = xbmc.translatePath(os.path.join(artfolder, 'uk.jpg'))
 ##############################3
-i_music = xbmc.translatePath(os.path.join(artfolder, 'movie.png'))
+i_music = xbmc.translatePath(os.path.join(artfolder, 'music.png'))
 i_sport = xbmc.translatePath(os.path.join(artfolder, 'sport.png'))
 i_beach = xbmc.translatePath(os.path.join(artfolder, 'beach.png'))
 i_child = xbmc.translatePath(os.path.join(artfolder, 'EU.png'))
@@ -55,6 +55,7 @@ i_pt = xbmc.translatePath(os.path.join(artfolder, 'pt.png'))
 i_ru = xbmc.translatePath(os.path.join(artfolder, 'radio.png'))
 i_tvshow = xbmc.translatePath(os.path.join(artfolder, 'tvshow.png'))
 i_uk = xbmc.translatePath(os.path.join(artfolder, 'uk.png'))
+
 
 online_m3u = mysettings.getSetting('online_m3u')
 filmes_m3u = mysettings.getSetting('filmes_m3u')
@@ -112,7 +113,7 @@ def main():
 	if len(log_m3u) > 0:	
 		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 111, icon, fanart)
 	if len(online_m3u) > 0:	
-		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 2, i_music, f_music)
+		add_dir('[COLOR blue][B] MUSICA [/B][/COLOR]', u_tube, 2, i_music, f_music)
 	if len(filmes_m3u) > 0:	
 		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 3, i_movie, f_movie)
 	if len(infantil_m3u) > 0:	
@@ -126,7 +127,7 @@ def main():
 	if len(ru_m3u) > 0:	
 		add_dir('[COLOR yellow][B] RADIOS [/B][/COLOR]', u_tube, 8, i_ru, f_ru)
 	if len(desporto_m3u) > 0:	
-		add_dir('[COLOR red][B] DESPORTO [/B][/COLOR]', u_tube, 9, i_sport, f_sport)
+		add_dir('[COLOR lawngreen][B] DESPORTO [/B][/COLOR]', u_tube, 9, i_sport, f_sport)
 	if len(series_m3u) > 0:	
 		add_dir('[COLOR red][B] SERIES [/B][/COLOR]', u_tube, 10, i_tvshow, f_tvshow)
 	if len(uk_m3u) > 0:	
@@ -138,7 +139,7 @@ def main():
 	if len(pessoal_local_m3u) > 0:	
 		add_dir('[COLOR gray][B] MINHA M3U LOCAL [/B][/COLOR]', u_tube, 14, icon, fanart)
 	if len(online_xml) > 0:	
-		add_dir('[COLOR green][B] LISTA MAGELLAN [/B][/COLOR]', u_tube, 15, icon, fanart)
+		add_dir('[COLOR orangered][B] LISTA MAGELLAN [/B][/COLOR]', u_tube, 15, icon, fanart)
 	if len(local_xml) > 0:	
 		add_dir('[COLOR gray][B] MINHA XML LOCAL [/B][/COLOR]', u_tube, 16, icon, fanart)	
 	if (len(online_m3u) < 1 and len(filmes_m3u) < 1 and len(infantil_m3u) < 1 and len(nasa_m3u) < 1 and len(noticias_m3u) < 1 and len(pt_m3u) < 1 and len(ru_m3u) < 1 and len(desporto_m3u) < 1 and len(series_m3u) < 1 and len(uk_m3u) < 1 and len(praias_m3u) < 1 and len(pessoal_m3u) < 1 and len(pessoal_local_m3u) < 1 and len(online_xml) < 1 and len(local_xml) < 1 and len(log_m3u) < 1 ):
