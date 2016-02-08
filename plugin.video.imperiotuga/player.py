@@ -152,6 +152,12 @@ def search():
 		keyb.doModal()
 		if (keyb.isConfirmed()):
 			searchText = urllib.quote_plus(keyb.getText()).replace('+', ' ')
+		if len(music_m3u) > 0:		
+			content = make_request(music_m3u)
+			match = re.compile(m3u_regex).findall(content)
+			for thumb, name, url in match:
+				if re.search(searchText, removeAccents(name.replace('Đ', 'D')), re.IGNORECASE):
+					m3u_playlist(name, url, thumb)	
 		if len(online_m3u) > 0:		
 			content = make_request(online_m3u)
 			match = re.compile(m3u_regex).findall(content)
@@ -245,7 +251,15 @@ def search():
 	except:
 		pass
 	
-		
+def m3u_music():		
+	content = make_request(music_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+			
 def m3u_log():		
 	content = make_request(log_m3u)
 	match = re.compile(m3u_regex).findall(content)
@@ -517,7 +531,7 @@ elif mode == 1:
 elif mode == 111:
 	m3u_log()
 elif mode == 2:
-	m3u_online()
+	m3u_music()
 	
 elif mode == 3:
 	m3u_filmes()
