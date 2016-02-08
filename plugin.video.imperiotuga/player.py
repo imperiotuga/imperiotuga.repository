@@ -111,8 +111,8 @@ def make_request(url):
 			
 def main():
 	if len(log_m3u) > 0:	
-		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 1, icon, fanart)
-	if len(misic_m3u) > 0:	
+		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 111, icon, fanart)
+	if len(music_m3u) > 0:	
 		add_dir('[COLOR blue][B] MUSICA [/B][/COLOR]', u_tube, 2, i_music, f_music)
 	if len(filmes_m3u) > 0:	
 		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 3, i_movie, f_movie)
