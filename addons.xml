@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.imperiotuga" name="Imperio Tuga" version="2.2.5" provider-name="Imperio Tuga">
+<addon id="plugin.video.imperiotuga" name="Imperio Tuga" version="2.2.6" provider-name="Imperio Tuga">
   <requires>
   </requires>
   <extension point="xbmc.python.pluginsource"
