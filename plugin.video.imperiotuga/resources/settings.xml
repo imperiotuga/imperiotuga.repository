@@ -11,7 +11,7 @@
 		<setting label="[B]PORTUGAL[/B]" type="text"  id="pt_m3u" default="http://pastebin.com/raw/FQc716WB" />
 		<setting label="[B]DESPORTO[/B]" type="text"  id="desporto_m3u" default="http://pastebin.com/raw/vBeEFzE3" />	
 		<setting label="[B]EUMIX[/B]" type="text"  id="infantil_m3u" default="" />			
-		<setting label="[B]MUSICA[/B]" type="text"  id="musica_m3u" default="" />
+		<setting label="[B]MUSICA[/B]" type="text"  id="musica_m3u" default="http://pastebin.com/raw/wuKsvWDB" />
 		<setting label="[B]FILMES[/B]" type="text"  id="filmes_m3u" default="http://pastebin.com/raw/vfFNpRBX" />
 	</category>
 	<category label="[COLOR red][B]Listas Externas[/B][/COLOR]">
