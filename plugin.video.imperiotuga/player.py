@@ -56,7 +56,7 @@ i_ru = xbmc.translatePath(os.path.join(artfolder, 'radio.png'))
 i_tvshow = xbmc.translatePath(os.path.join(artfolder, 'tvshow.png'))
 i_uk = xbmc.translatePath(os.path.join(artfolder, 'uk.png'))
 
-
+music_m3u = mysettings.getSetting('music_m3u')
 online_m3u = mysettings.getSetting('online_m3u')
 filmes_m3u = mysettings.getSetting('filmes_m3u')
 infantil_m3u = mysettings.getSetting('infantil_m3u')
@@ -111,8 +111,8 @@ def make_request(url):
 			
 def main():
 	if len(log_m3u) > 0:	
-		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 111, icon, fanart)
-	if len(online_m3u) > 0:	
+		add_dir('[COLOR red]Versao: 1.0[/COLOR]', u_tube, 1, icon, fanart)
+	if len(misic_m3u) > 0:	
 		add_dir('[COLOR blue][B] MUSICA [/B][/COLOR]', u_tube, 2, i_music, f_music)
 	if len(filmes_m3u) > 0:	
 		add_dir('[COLOR blue][B] FILMES [/B][/COLOR]', u_tube, 3, i_movie, f_movie)
