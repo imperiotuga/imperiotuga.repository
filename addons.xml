@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="imperiotuga.repository" name="Imperio Tuga" version="1.0" provider-name="imperiotuga">
+<addon id="imperiotuga.repository" name="Imperio Tuga" version="2.0" provider-name="imperiotuga">
 	<extension point="xbmc.addon.repository" name="imperiotuga Add-on Repository">
 		<info compressed="false">http://raw.github.com/imperiotuga/imperiotuga.repository/master/addons.xml</info>
 		<checksum>http://raw.github.com/imperiotuga/imperiotuga.repository/master/addons.xml.md5</checksum>
