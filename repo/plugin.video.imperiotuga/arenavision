@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item>
-<title>[COLOR blue][B][I]ARENAVISION[/I][/B][/COLOR] [COLOR red] ( P2P SPORT)[/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.p2psport/?mode=av</jsonrpc>
-<thumbnail>http://s20.postimg.org/dh6rs3pz1/LIVESPORTS_REAM.jpg</thumbnail>
-</item>
-</xml>

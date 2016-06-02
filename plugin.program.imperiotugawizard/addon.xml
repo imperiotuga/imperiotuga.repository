@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.imperiotugawizard" name="Imperio Tuga Wizard" version="2.0.2" provider-name="Imperio Tuga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary>Imperio Tuga</summary>
+		<description>Wizard de Manutencao Imperio Tuga</description>
+		<disclaimer></disclaimer>    
+	<platform>all</platform>
+  </extension>
+</addon>
