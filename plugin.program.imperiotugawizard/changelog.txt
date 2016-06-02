@@ -1,2 +1,3 @@
-[B]Version 1.0[/B]
-- Initial version
+[B]Version 2.0.5[/B]
+- Implementacao de Manutencao
+- Instalacao de Builds
