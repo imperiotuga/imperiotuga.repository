@@ -13,7 +13,7 @@ mediaPath = os.path.join(addonPath, 'resources/art')
 databasePath = xbmc.translatePath('special://userdata/Database')
 USERDATA = xbmc.translatePath('special://userdata/')
 AddonData = xbmc.translatePath('special://userdata/addon_data')
-MaintTitle="[COLOR cyan]Project X[/COLOR] [COLOR lightsteelblue]Maintenance Tools[/COLOR]"
+MaintTitle="[COLOR cyan]Imperio Tuga[/COLOR] [COLOR lightsteelblue]Maintenance Tools[/COLOR]"
 EXCLUDES     = ['plugin.program.imperiotugawizard','script.module.addon.common','imperiotuga.repository','script.module.requests','temp','kodi.log','kodi.log.old','spmc.log','spmc.log.old']
 dp = xbmcgui.DialogProgress()
 
