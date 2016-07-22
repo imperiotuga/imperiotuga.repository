@@ -498,7 +498,7 @@ elif mode==11:
         update.updatecheck()
 		
 elif mode==12:
-        xbmc.executebuiltin("RunAddon(plugin.video.projectxwizard)")
+        xbmc.executebuiltin("RunAddon(plugin.program.imperiotugawizard)")
 		
 elif mode==13:
         maintenance.Fix_Special(url)

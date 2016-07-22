@@ -16,7 +16,7 @@
 
 <addon id="plugin.program.imperiotugawizard"
 	     name="Imperio Tuga Wizard"
-	     version="0.0.2"
+	     version="0.0.3"
 	     provider-name="Imperio Tuga">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
