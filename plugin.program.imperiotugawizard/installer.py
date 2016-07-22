@@ -24,58 +24,22 @@ def INSTALL(name,url,description):
 
 	wipeme = 0
 
-	if name == "SKYLEX":
+	if name == "Imperiotuga":
 		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Skylex was designed for low end machines like Firesticks.','Recomended: Single Core CPU | 1GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
+		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Imperiotuga was designed for low end machines like Firesticks.','Recomended: Single Core CPU | 1GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
-	if name == "SKYLEX XXL":
+	if name == "ImperioTugaSLIM":
 		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'SkylexXXL was designed for high end machines like the Amazon Fire TV & Nvidia Shield.','Recomended: Quad Core CPU | 4GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
+		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTugaSLIM was designed for high end machines like the Amazon Fire TV & Nvidia Shield.','Recomended: Quad Core CPU | 4GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
-	if name == "ZEUS":
+	if name == "ImperioTuga SLIM VERTICAL 1.1":
 		wipeme = 1
 		name = "Zeus"
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Zeus was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
-		if choice == 0:
-			sys.exit(1)
-
-	if name == "STREAM & CHILL":
-		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Stream & Chill was designed for mid level to high end machines and is based on Netflix.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
-		if choice == 0:
-			sys.exit(1)
-			
-	if name == "TOONFLIX":
-		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ToonFlix was designed for Kids. MASTER CODE: 1010','Recomended: Single Core CPU | 1GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
-		if choice == 0:
-			sys.exit(1)
-			
-	if name == "SONAR":
-		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Sonaer is a BETA build that needs testing.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
-		if choice == 0:
-			sys.exit(1)
-	
-	if name == "XXX ADDON EXPANSION PACK":
-		if not os.path.exists(CHECKVERSION):
-			dialog = xbmcgui.Dialog()
-			dialog.ok(AddonTitle,'Sorry, you are not using a Imperio Tuga Build.','This pack is only available for Imperio Tuga Build users.')
-			sys.exit(1)
-			
-	if name == "EMBER":
-		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Ember is a BETA build that needs testing.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
-		if choice == 0:
-			sys.exit(1)
-	
-	if name == "EMBER FOR FIRESTICKS":
-		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Ember is a BETA build that needs testing.','Recomended: Amazon Fire Stick','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
+		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTuga SLIM VERTICAL 1.1 was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
