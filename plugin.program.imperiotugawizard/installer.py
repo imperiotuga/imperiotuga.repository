@@ -38,7 +38,6 @@ def INSTALL(name,url,description):
 
 	if name == "ImperioTuga SLIM VERTICAL 1.1":
 		wipeme = 1
-		name = "Zeus"
 		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTuga SLIM VERTICAL 1.1 was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
@@ -61,7 +60,7 @@ def INSTALL(name,url,description):
 		pass
 	
 	downloader.download(url, lib, dp)
-	addonfolder = xbmc.translatePath(os.path.join('special://home','userdata'))
+	addonfolder = xbmc.translatePath(os.path.join('special://','home'))
 	time.sleep(2)
 	dp.update(0,"","Extracting Zip Please Wait","")
 	unzip(lib,addonfolder,dp)
