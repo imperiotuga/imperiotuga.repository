@@ -10,6 +10,7 @@ import errno
 import speedtest
 import common as Common
 import wipe
+import appinstaller
 import versioncheck
 import ServerStatus
 import community
@@ -84,6 +85,7 @@ JarvisWizStatusMain = "[COLOR lime][B]ONLINE [/B][/COLOR]"
 KryptonWizStatusMain = "[COLOR lime][B]ONLINE [/B][/COLOR]"
 JarvisUpdateStatusMain = "[COLOR lime][B]ONLINE [/B][/COLOR]"
 KryptonUpdateStatusMain = "[COLOR lime][B]ONLINE [/B][/COLOR]"
+AppInstallerMain = "[COLOR lime][B]ONLINE [/B][/COLOR]"
 RepoStatus = "[COLOR lime][B] . [/B][/COLOR]"
 AddonsStatus = "[COLOR lime][B] . [/B][/COLOR]"
 JarvisWizStatus = "[COLOR lime][B] . [/B][/COLOR]"
@@ -177,6 +179,7 @@ def INDEX():
 	Common.addDir('[COLOR cyan]Imperio Tuga WIZARD BUILDS[/COLOR] - [COLOR powderblue]J v16[/COLOR] | ' + JarvisWizStatusMain + ' - [COLOR powderblue]K v17[/COLOR] | ' + KryptonWizStatusMain,BASEURL,88,ICON,FANART,'')
 	Common.addItem('[COLOR cyan]CHECK FOR UPDATES[/COLOR] - [COLOR powderblue]J v16[/COLOR] | ' + JarvisUpdateStatusMain + ' - [COLOR powderblue]K v17[/COLOR] | ' + KryptonUpdateStatusMain,BASEURL,11,ICON,FANART,'')
 	Common.addDir('[COLOR cyan]COMMUNITY BUILDS[/COLOR] - ' + CommunityStatusMain,BASEURL,87,ICON,FANART,'')
+	Common.addDir('[COLOR cyan]APP INSTALLER[/COLOR] - ' + AppInstallerMain,BASEURL,22,ICON,FANART,'')	
 	Common.addDir('[COLOR cyan]ADVANCED SETTINGS[/COLOR] - ' + AdvancedSettingsMain,BASEURL,30,ICON,FANART,'')
 	Common.addDir('[COLOR cyan]SPEED TEST[/COLOR] - ' + SpeedTestStatusMain,BASEURL,16,ICON,ART+'speedfanart.jpg','')
 	Common.addDir('[COLOR cyan]MAINTENANCE TOOLS[/COLOR]',BASEURL,5,ICON,ART+'maintwall.jpg','')
@@ -527,6 +530,30 @@ elif mode==20:
 elif mode==21:
         BUILDMENU_BETA()
 		
+elif mode==22:
+        appinstaller.MENUSISTEM()
+
+elif mode==23:
+        appinstaller.BUILDMENUDROID()
+
+elif mode==24:
+        appinstaller.APPINSTALL(name,url,description)
+
+elif mode==25:
+        appinstaller.APPSWIZARD()
+
+elif mode==26:
+        appinstaller.EMULATORWIZARD()	
+
+elif mode==27:
+        appinstaller.EMULATORINSTALL(name,url,description)
+
+#elif mode==28:
+        #appinstaller.APPSWIZARD1()
+
+#elif mode==29:
+        #appinstaller.BUILDMENU1()		
+		
 elif mode==30:
 		ADVANCEDSETTINGS()
 		
@@ -556,7 +583,7 @@ elif mode==85:
         Common.killxbmc()
 
 elif mode==87:
-       community.COMMUNITY()
+       community.COMMUNITY()	   
 		
 elif mode==88:
         BUILDMENU()
@@ -569,6 +596,9 @@ elif mode==92:
 		
 elif mode==93:
        community.SHOWCOMMUNITYBUILDS(url)
+	   
+elif mode==98:
+        appinstaller.COMINGSOONANDROID()
 	   
 elif mode==99:
 		installer.INSTALLCOM(name,url,description)

@@ -1,0 +1,6 @@
+size. 500x500 px
+font. riffic free
+font size. 60 pt
+colour. e6dbdb
+position. center. bottom 99 up
+fx. gradient overlay soft light. bevel and emboss
