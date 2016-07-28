@@ -24,24 +24,31 @@ def INSTALL(name,url,description):
 
 	wipeme = 0
 
-	if name == "Imperiotuga":
+	if name == "ImperioTuga SLIM":
 		wipeme = 1
 		choice = xbmcgui.Dialog().yesno(AddonTitle, 'Imperiotuga was designed for low end machines like Firesticks.','Recomended: Single Core CPU | 1GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
-	if name == "ImperioTugaSLIM":
+	if name == "ImperioTuga":
 		wipeme = 1
 		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTugaSLIM was designed for high end machines like the Amazon Fire TV & Nvidia Shield.','Recomended: Quad Core CPU | 4GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
-	if name == "ImperioTuga SLIM VERTICAL 1.1":
+	if name == "ImperioTuga ESPANHA #BREVEMENTE#":
 		wipeme = 1
-		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTuga SLIM VERTICAL 1.1 was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
+		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTuga ESPANHA #BREVEMENTE# was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
 		if choice == 0:
 			sys.exit(1)
 
+	if name == "ImperioTuga ITALIA #BREVEMENTE#":
+		wipeme = 1
+		choice = xbmcgui.Dialog().yesno(AddonTitle, 'ImperioTuga ITALIA #BREVEMENTE# was designed for mid-level machines like MX8 & T8.','Recomended: Dual Core CPU | 2GB RAM or more','[I][COLOR lightsteelblue]Would you like to download this build now?[/I][/COLOR]', yeslabel='[B][COLOR green]YES[/COLOR][/B]',nolabel='[B][COLOR red]NO[/COLOR][/B]')
+		if choice == 0:
+			sys.exit(1)
+			
+			
 	if wipeme == 1:
 		wipe.WIPERESTORE()
 
